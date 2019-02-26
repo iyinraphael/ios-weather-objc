@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak) id <UICollectionViewDataSource> collectionViewDataSource;
+
 
 @end
 
