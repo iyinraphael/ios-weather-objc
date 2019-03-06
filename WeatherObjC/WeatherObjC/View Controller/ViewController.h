@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController
 
 @property (weak) id <UICollectionViewDataSource> collectionViewDataSource;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 
 
 @end
